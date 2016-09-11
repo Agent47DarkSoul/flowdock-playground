@@ -1,0 +1,5 @@
+<%= current_user.email %>
+
+<%= form_tag destroy_user_session_path, method: :delete do %>
+  <%= submit_tag 'Sign Out' %>
+<% end %>
