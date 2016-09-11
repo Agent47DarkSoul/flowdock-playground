@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   resources :users
 
+  get "/auth/:provider/callback" => "users#oauth"
+
   devise_for :users
 
   devise_scope :user do
