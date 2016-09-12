@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/Agent47DarkSoul/omniauth-oauth2.git
+  revision: 8a41f546b14899c81df5ba636c5ce4c58b3d96de
+  branch: debugging-csrf-issue
+  specs:
+    omniauth-oauth2 (1.4.0)
+      oauth2 (~> 1.0)
+      omniauth (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,9 +106,6 @@ GEM
       rack (>= 1.0, < 3)
     omniauth-flowdock (0.1.0)
       omniauth-oauth2 (~> 1.1)
-    omniauth-oauth2 (1.4.0)
-      oauth2 (~> 1.0)
-      omniauth (~> 1.2)
     orm_adapter (0.5.0)
     pg (0.18.4)
     pkg-config (1.1.7)
@@ -169,6 +175,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (~> 3.0.5)
   omniauth-flowdock
+  omniauth-oauth2!
   pg
   puma (~> 3.0)
   rails (~> 5.0.0)

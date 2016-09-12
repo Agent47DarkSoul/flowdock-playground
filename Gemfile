@@ -35,6 +35,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
+gem 'omniauth-oauth2', github: 'Agent47DarkSoul/omniauth-oauth2', branch: 'debugging-csrf-issue'
 gem 'omniauth-flowdock'
 
 gem 'dotenv-rails', :groups => [:development, :test]
